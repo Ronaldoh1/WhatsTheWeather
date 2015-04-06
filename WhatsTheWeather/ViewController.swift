@@ -25,7 +25,8 @@ class ViewController: UIViewController {
 
     @IBAction func findWeather(sender: AnyObject) {
 
-        var url = NSURL(string: "http://www.weather-forecast.com/locations/london/forecasts/latest")
+        var url = NSURL(string: "http://www.weather-forecast.com/locations/" + self.userCityTextField.text.stringByReplacingOccurrencesOfString(" ", withString: "-") + "/forecasts/latest")
+    
         var weather = ""
 
         //check it the url is nill
@@ -83,6 +84,17 @@ class ViewController: UIViewController {
             
         }
     }
-    
+
+     //when you tap outside the keyboard - close the keyboard. 
+    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+        self.view.endEditing(true)
+    }
+      //close textfield when user clicks turn 
+    func textfieldShouldReturn(textField: UITextField!) -> Bool{
+
+        textField.resignFirstResponder()
+
+        return true
+    }
 }
 

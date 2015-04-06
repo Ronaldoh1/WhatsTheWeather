@@ -63,10 +63,10 @@
                                     <action selector="findWeather:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8AU-Iq-RP7"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kvL-f1-edW">
-                                <rect key="frame" x="16" y="267" width="382" height="119"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kvL-f1-edW">
+                                <rect key="frame" x="16" y="267" width="382" height="361"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="119" id="ALe-ea-NVm"/>
+                                    <constraint firstAttribute="height" constant="361" id="ALe-ea-NVm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
