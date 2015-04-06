@@ -13,6 +13,7 @@
 		F2AE87431AD23C9400F74116 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2AE87421AD23C9400F74116 /* Images.xcassets */; };
 		F2AE87461AD23C9400F74116 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2AE87441AD23C9400F74116 /* LaunchScreen.xib */; };
 		F2AE87521AD23C9400F74116 /* WhatsTheWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AE87511AD23C9400F74116 /* WhatsTheWeatherTests.swift */; };
+		F2AE875C1AD23DA600F74116 /* DSCN2846.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F2AE875B1AD23DA600F74116 /* DSCN2846.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F2AE874B1AD23C9400F74116 /* WhatsTheWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsTheWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2AE87501AD23C9400F74116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2AE87511AD23C9400F74116 /* WhatsTheWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsTheWeatherTests.swift; sourceTree = "<group>"; };
+		F2AE875B1AD23DA600F74116 /* DSCN2846.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSCN2846.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				F2AE873D1AD23C9400F74116 /* ViewController.swift */,
 				F2AE873F1AD23C9400F74116 /* Main.storyboard */,
 				F2AE87421AD23C9400F74116 /* Images.xcassets */,
+				F2AE875B1AD23DA600F74116 /* DSCN2846.JPG */,
 				F2AE87441AD23C9400F74116 /* LaunchScreen.xib */,
 				F2AE87391AD23C9400F74116 /* Supporting Files */,
 			);
@@ -195,6 +198,7 @@
 				F2AE87411AD23C9400F74116 /* Main.storyboard in Resources */,
 				F2AE87461AD23C9400F74116 /* LaunchScreen.xib in Resources */,
 				F2AE87431AD23C9400F74116 /* Images.xcassets in Resources */,
+				F2AE875C1AD23DA600F74116 /* DSCN2846.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
